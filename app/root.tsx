@@ -6,6 +6,8 @@ import {
   Scripts,
   ScrollRestoration,
 } from "react-router";
+import { initSyncfusion } from "./syncfusion.client";
+
 
 import type { Route } from "./+types/root";
 import "./app.css";
@@ -25,10 +27,9 @@ export const links: Route.LinksFunction = () => [
 ];
 
 export function Layout({ children }: { children: React.ReactNode }) {
-  useEffect(() => {
-    // Load Syncfusion license ONLY on the client
-    import("./syncfusion.client").then((m) => m.initSyncfusion());
-  }, []);
+    useEffect(() => {
+        initSyncfusion(); // runs only in browser
+    }, []);
 
   return (
       <html lang="en">

@@ -20,6 +20,7 @@
     "@syncfusion/ej2-react-navigations": "^31.2.16",
     "@syncfusion/ej2-react-splitbuttons": "^31.2.12",
     "clsx": "^2.1.1",
+    "dayjs": "^1.11.19",
     "isbot": "^5.1.31",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
