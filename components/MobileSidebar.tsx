@@ -19,7 +19,7 @@ const MobileSidebar = () => {
                         alt="logo"
                         className="size-[30px]"
                     />
-                    <h1>HomeNav</h1>
+                    <h1>TravelFlow</h1>
                 </Link>
                 <button
                     onClick={toggleSidebar}>

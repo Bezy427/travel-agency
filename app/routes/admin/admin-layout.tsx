@@ -3,6 +3,11 @@ import {Outlet} from "react-router";
 import {SidebarComponent} from "@syncfusion/ej2-react-navigations";
 import {MobileSidebar, NavItems} from "../../../components";
 
+// export async function clientLoader() {
+//      try{
+//
+//      }
+
 const AdminLayout = () => {
     return (
         <div className="admin-layout">
